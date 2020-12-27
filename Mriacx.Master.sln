@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.Master", "Mriacx.Master\Mriacx.Master.csproj", "{D9AC00C1-04DC-4D99-BA83-B47F171D6FCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mriacx.Master", "Mriacx.Master\Mriacx.Master.csproj", "{D9AC00C1-04DC-4D99-BA83-B47F171D6FCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.Service", "Mriacx.Service\Mriacx.Service.csproj", "{98B05227-C27F-4131-81A2-3477F14CCEC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mriacx.Service", "Mriacx.Service\Mriacx.Service.csproj", "{98B05227-C27F-4131-81A2-3477F14CCEC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.Dao", "Mriacx.Dao\Mriacx.Dao.csproj", "{9083FB2D-E558-4138-8A63-C3FCE308B0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mriacx.Dao", "Mriacx.Dao\Mriacx.Dao.csproj", "{9083FB2D-E558-4138-8A63-C3FCE308B0B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.Common", "Mriacx.Common\Mriacx.Common.csproj", "{9BC1DDF7-2923-48B1-9E26-E74A69D88F3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mriacx.Common", "Mriacx.Common\Mriacx.Common.csproj", "{9BC1DDF7-2923-48B1-9E26-E74A69D88F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.FrameWork", "Mriacx.FrameWork\Mriacx.FrameWork.csproj", "{E00541BE-3495-4C21-B1E1-8DD9EB1D488C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9BC1DDF7-2923-48B1-9E26-E74A69D88F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC1DDF7-2923-48B1-9E26-E74A69D88F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC1DDF7-2923-48B1-9E26-E74A69D88F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00541BE-3495-4C21-B1E1-8DD9EB1D488C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00541BE-3495-4C21-B1E1-8DD9EB1D488C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00541BE-3495-4C21-B1E1-8DD9EB1D488C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00541BE-3495-4C21-B1E1-8DD9EB1D488C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
