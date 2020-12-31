@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Mriacx.Common;
+using Mriacx.Master.Extensions;
 
 namespace Mriacx.Master
 {
@@ -30,7 +32,19 @@ namespace Mriacx.Master
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //获取HttpContent
             services.AddHttpContextAccessor();
+
+            #region Add HttpClient
+            //用于发起请求的HttpClient
+            services.AddHttpClient();
+
+            #endregion
+
+            #region Add AllServices
+            services.Configure<AssemblyOption>(Configuration.GetSection("assembly")).AddServices(); 
+            #endregion
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

@@ -5,9 +5,9 @@ namespace Mriacx.FrameWork
 {
     public class AssemblyFactory
     {
-        public static T CreateAssembly<T>()
-        {
-            Assembly assembly = Assembly.Load();
-        }
+        //public static T CreateAssembly<T>()
+        //{
+        //    Assembly assembly = Assembly.Load();
+        //}
     }
 }

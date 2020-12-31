@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\03.Web\\Mriacx.Master\\Mriacx.Dao\\Mriacx.Dao.csproj": {}
+    "E:\\gitWorkPlace\\Mriacx.Master\\Mriacx.Dao\\Mriacx.Dao.csproj": {}
   },
   "projects": {
-    "D:\\03.Web\\Mriacx.Master\\Mriacx.Dao\\Mriacx.Dao.csproj": {
+    "E:\\gitWorkPlace\\Mriacx.Master\\Mriacx.Dao\\Mriacx.Dao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\03.Web\\Mriacx.Master\\Mriacx.Dao\\Mriacx.Dao.csproj",
+        "projectUniqueName": "E:\\gitWorkPlace\\Mriacx.Master\\Mriacx.Dao\\Mriacx.Dao.csproj",
         "projectName": "Mriacx.Dao",
-        "projectPath": "D:\\03.Web\\Mriacx.Master\\Mriacx.Dao\\Mriacx.Dao.csproj",
-        "packagesPath": "C:\\Users\\Yichen\\.nuget\\packages\\",
-        "outputPath": "D:\\03.Web\\Mriacx.Master\\Mriacx.Dao\\obj\\",
+        "projectPath": "E:\\gitWorkPlace\\Mriacx.Master\\Mriacx.Dao\\Mriacx.Dao.csproj",
+        "packagesPath": "C:\\Users\\mdsd\\.nuget\\packages\\",
+        "outputPath": "E:\\gitWorkPlace\\Mriacx.Master\\Mriacx.Dao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yichen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mdsd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
