@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.Master", "Mriacx.Master\Mriacx.Master.csproj", "{FC10C018-9D83-471B-9347-E26EDE45F744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mriacx.Master", "Mriacx.Master\Mriacx.Master.csproj", "{FC10C018-9D83-471B-9347-E26EDE45F744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.Service", "Mriacx.Service\Mriacx.Service.csproj", "{EC8D7D36-36C8-4D9F-9DD5-CFB475393D0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mriacx.Service", "Mriacx.Service\Mriacx.Service.csproj", "{EC8D7D36-36C8-4D9F-9DD5-CFB475393D0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.Dao", "Mriacx.Dao\Mriacx.Dao.csproj", "{6A869B2E-B673-4CAD-A3FA-C22CF594E198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mriacx.Dao", "Mriacx.Dao\Mriacx.Dao.csproj", "{6A869B2E-B673-4CAD-A3FA-C22CF594E198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.Common", "Mriacx.Common\Mriacx.Common.csproj", "{8EF13ACC-5A32-4893-82DF-C0295497FC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mriacx.Common", "Mriacx.Common\Mriacx.Common.csproj", "{8EF13ACC-5A32-4893-82DF-C0295497FC58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.Entity", "Mriacx.Entity\Mriacx.Entity.csproj", "{19F00DDF-9F70-4D8D-8F26-4CD655B1194C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mriacx.Entity", "Mriacx.Entity\Mriacx.Entity.csproj", "{19F00DDF-9F70-4D8D-8F26-4CD655B1194C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mriacx.FrameWork", "Mriacx.FrameWork\Mriacx.FrameWork.csproj", "{2D7EBD25-37C2-4452-ADB5-E4C1C8E821BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{19F00DDF-9F70-4D8D-8F26-4CD655B1194C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F00DDF-9F70-4D8D-8F26-4CD655B1194C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19F00DDF-9F70-4D8D-8F26-4CD655B1194C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7EBD25-37C2-4452-ADB5-E4C1C8E821BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7EBD25-37C2-4452-ADB5-E4C1C8E821BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7EBD25-37C2-4452-ADB5-E4C1C8E821BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7EBD25-37C2-4452-ADB5-E4C1C8E821BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

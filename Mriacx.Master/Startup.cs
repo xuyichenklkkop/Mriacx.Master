@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Mriacx.Entity.CommonEntity;
+using Mriacx.Master.Extensions;
 
 namespace Mriacx.Master
 {
@@ -24,6 +26,22 @@ namespace Mriacx.Master
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            #region Add HttpContent
+            services.AddHttpContextAccessor();
+            #endregion
+
+            #region Add AllService
+            services.Configure<AssemblyOption>(Configuration.GetSection("assembly")).AddServices();
+            #endregion
+
+            #region Add Cors
+            services.AddCors(options => options.AddPolicy("cors", builder => builder.AllowAnyOrigin().AllowAnyMethod().WithHeaders("Accept", "Content-Type", "Origin", "Authorization", "Referer", "User-Agent").AllowAnyHeader()));
+            #endregion
+
+            #region Add DbContext
+
+            #endregion
             services.AddControllers();
         }
 
@@ -34,7 +52,7 @@ namespace Mriacx.Master
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("cors");
             app.UseRouting();
 
             app.UseAuthorization();
