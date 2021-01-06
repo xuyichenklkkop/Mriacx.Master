@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mriacx.Common
+namespace Mriacx.Entity.CommonEntity
 {
     public class AssemblyOption
     {
