@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mriacx.Common\Mriacx.Common.csproj" />
+    <ProjectReference Include="..\Mriacx.Service.Interface\Mriacx.Service.Interface.csproj" />
+  </ItemGroup>
+
 </Project>

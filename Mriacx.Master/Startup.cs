@@ -42,6 +42,7 @@ namespace Mriacx.Master
             #region Add DbContext
 
             #endregion
+
             services.AddControllers();
         }
 

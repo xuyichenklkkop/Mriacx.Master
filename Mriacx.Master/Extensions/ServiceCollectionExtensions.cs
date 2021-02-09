@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using Mriacx.Common.AttributeCollection;
 using Mriacx.Common.Utils;
 using Mriacx.Entity.CommonEntity;
+using Mriacx.Service.Interface;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -52,6 +54,27 @@ namespace Mriacx.Master.Extensions
                 var assembly = Assembly.Load(assemblyName);
                 assemblies.Add(assembly);
             }
+
+            foreach (var assembly in assemblies)
+            {
+                var types = assembly.GetExportedTypes();
+                foreach (var type in types)
+                {
+                    var attrObj = type.GetCustomAttribute(typeof(AutoWiredAttribute), true);
+                    if (attrObj == null)
+                    {
+                        continue;
+                    }
+                    services.AddTransient(typeof (IOrderService),type);
+                    //var iType = assembly.GetTypes().Where(item => item.GetInterfaces().Contains(typeof(IOrderService)))
+                    //      .Select(type => type.Name).ToList();
+                }
+            }
+
+
+
+            var service = serviceProvider.GetService<IOrderService>();
+
             return services;
         }
     }
