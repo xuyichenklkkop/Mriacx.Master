@@ -7,7 +7,7 @@ using System.Text;
 namespace Mriacx.Service
 {
     [AutoWired(typeof(IOrderService), "OrderByClassService")]
-    class OrderByClassService : IOrderService
+    public class OrderByClassService : IOrderService
     {
         public string GetTest()
         {
